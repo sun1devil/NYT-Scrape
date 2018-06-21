@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>NYT Scrape</title>
     <style>
-      body { background-color: darkgray; }
+      body { background-color: darkgray; font-family: Calibri;}
       #wrapper {
         width: 960px;
         margin-left: auto;
@@ -13,6 +13,8 @@
       }
       #articles {
         display: inline-block;
+        text-align: center;
+        font-family: Calibri;
         background: lightgray;
         border-style: solid;
         overflow: auto;
@@ -22,12 +24,14 @@
       #notes {
         float: none;
         width: 50%;
+        margin-bottom: 200px;
       }
       textarea, input {
         display: block;
         width: 100%;
         background-color: lightgray;
         border: solid 1px;
+        margin-bottom: 1px;
       }
       input {
         height: 36px;
@@ -44,11 +48,10 @@
         text-align: center;
         font-size: 32px;
         color: white;
-        background-color: black; 
+        background-color: black;
         border: 25px;
         border-color: white;      
-        opacity: 20%;
-      }
+        }
       footer{
         background: black;
         color: white;
@@ -57,10 +60,17 @@
         float: none;
         height: 100px;
       }
+      button{
+        color: white;
+        size: 25px;
+        background-color: black;
+        border:solid 1px white;
+        padding: 2px, 0px, 0px, 200px;
+      }
     </style>
   </head>
   <body>
-      <div class="jumbotron jumbotron-fluid">
+      <div class="jumbotron jumbotron-fluid" id="header">
           <div class="container">
             <h1 class="display-4">Scrape the NYT</h1>
             <p class="lead"></p>
@@ -75,5 +85,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="app.js"></script>
   </body>
-  <footer>Footer</footer>
+  <footer>The End</footer>
 </html>

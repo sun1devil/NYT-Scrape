@@ -26,10 +26,10 @@ $(document).on("click", "p", function() {
       // The title of the article
       $("#notes").append("<h2>" + data.title + "</h2>");
       // An input to enter a new title
-      $("#notes").append("<input id='userinput' name='user' >");
-      $("#notes").append("<input id='titleinput' name='title' >");
+      $("#notes").append("<h3>User</h3>" + "<input id='userinput' name='user' >");
+      $("#notes").append("<h3>Title</h3>" +"<input id='titleinput' name='title' >");
       // A textarea to add a new note body
-      $("#notes").append("<textarea id='bodyinput' name='body'>");
+      $("#notes").append("<h3>Comments</h3>" +"<textarea id='bodyinput' name='body'>");
       // A button to submit a new note, with the id of the article saved to it
       $("#notes").append("<button data-id='" + data._id + "' id='post'>POST</button>");
       $("#notes").append("<button data-id='" + data._id + "' id='edit'>EDIT</button>");
