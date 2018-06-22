@@ -1,11 +1,9 @@
 # NYT-Scrape
 
-Project to utilize SQL and connect node JS to it usin routes, controller and ORM. Also utilized handlebars.  Deployed in Heroku as well as git hub.
+Project to utilize scapping tools axios and cheerio and set up routs to go to a website and retrieve data, store it in mongoDb as well as display info on the client facing page.  Deployed in Heroku using MLab MongoDB.
 
 Links:
 - https://github.com/sun1devil/NYT-Scrape
-
-- 
 
 - https://git.heroku.com/limitless-ridge-17243.git
 
